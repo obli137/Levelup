@@ -1,0 +1,406 @@
+body{
+	background: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+	width: 100px;
+}
+
+.principal a:hover {
+	color: red;
+	transform: scale(10);
+}
+
+.botonera li{
+	display: inline-flex;
+	margin-left: 8px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.subBotonera {
+	display: none;
+}
+
+.botonera li a{
+	color:white;
+}
+
+.botonera li a:hover{
+	color: rgba(218, 28, 208, 0.883);
+	text-decoration: none;
+}
+
+
+
+  .parpadea {
+	color: yellow;
+	animation-name: parpadeo;
+	animation-duration: 1.3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	-webkit-animation-name:parpadeo;
+	-webkit-animation-duration: 1.3s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	 100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+	0% { opacity: 1.0; }
+	 50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+  }
+
+
+
+
+header{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 34242;
+}
+
+
+.principal{
+	height: 100vh;
+	background: url(../images/Fondoindex.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.principalEmpleo{
+	height: 70vh;
+	background: url(../images/codigos.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#homeEmpleo h1{
+color: white;
+}
+#homeEmpleo {
+	color: white;
+	}
+
+#contenedorDescripcionEmpleo {
+	width: 100%;
+	padding-top: 3%;
+margin-bottom: 3%;
+}	
+
+#descripcionEmpleo button {
+	justify-content: right;
+	float: right;
+	font-size: 15px;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10%;
+}
+
+#sobreLevel {
+	background-color:#241484;
+	color: white;
+	margin-top: -3.5%;
+	padding-top: 3%;
+}
+
+
+
+.empleos {
+	height: 90vh;
+	background: url(../images/Boton\ levelup.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.vertical-centered-text {
+  -ms-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta{
+	text-align: center;
+}
+h1{
+	font-weight: 700;
+	font-size: 50px;
+	color: rgba(255,255,255,.7);
+}
+
+.purple{
+
+	background: #241484;
+}
+
+.nosotros{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.nosotros h1{
+	font-weight: 100;
+	color: white;
+}
+.nosotros p{
+color:white;
+}
+.servicios{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+.servicios img{
+	width: 40%;
+	text-align: center;
+}
+
+.servicios h1{
+	color: #666;
+	font-weight: 100;
+}
+
+.servicios a {
+	text-align: center;
+}
+
+.empleosIndex { 
+	text-align: center;
+	height: 100vh;
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+.empleosIndex img{
+	width: 40%;
+	text-align: center;
+}
+
+.empleosIndex h1{
+	color: #666;
+	font-weight: 100;
+}
+
+.servicios .images{
+	padding-top: 30px;
+}
+
+.images .col-md-3{
+	padding-top: 20px;
+
+}
+.social{
+	text-align: center;
+}
+.social img{
+	width: 30%;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	background:#080613a2;
+	height: 30vh;
+	padding-top: 30px;
+}
+footer h1{
+	text-align: center;
+	font-weight: 100;
+}
+footer h2 {
+	text-align: end;
+	color: aliceblue;
+}
+
+footer h5 {
+	text-align: end;
+	color: aliceblue;
+}
+
+#home {
+	color: white;
+}
+.col-xs-4{
+	text-align: center;
+}
+
+.col-md-5 {
+	width: 100%;
+	text-align: right;
+}
+
+.empleos h1 {
+	color: whitesmoke;
+}
+.tipoEmpleo h1 {
+	color: thistle;
+	text-align: left;
+	font-size: 20%;
+}
+.tipoEmpleo p{
+font-size: 10%;
+}
+
+.propuestas {
+	background-image:linear-gradient(#241484, white) ;
+	text-align: center;
+	justify-content: center;
+	padding: 30px;
+}
+
+.propuestas h1{
+	color: white;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.grid {
+	color: black;
+	padding: 30px;
+	border-color: black;
+	display: grid;
+	background-color: #24148;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 2fr 2fr;
+	grid-column-gap: 2vh;
+	grid-row-gap: 2vh;
+}
+
+.trabajo {
+	background-color: white;
+	padding: 10px;
+	text-align: left;
+	border-radius: 5px;
+	box-shadow:2px 2px 2px 1px;
+}
+
+.trabajo:hover{
+transform: translate(3px, 3px);
+}
+.postularme {
+	background-color: #241484;
+	justify-content: right;
+	float: right;
+	font-size: 13px;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.trabajo button {
+	background-color: #241484;
+	justify-content: right;
+	float: right;
+	font-size: 13px;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.trabajo a {
+	justify-content: right;
+	float: right;
+	font-size: 13px;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+margin-right: 0.5%;
+}
+
+#infoTrabajo:hover {
+	background-color: rgb(58, 58, 58);
+}
+
+#contactModal {
+	background-color: blueviolet;
+	height: 100vh;
+}
+
+
+.capa {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	opacity: 50%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.capa2 {
+	width: 100%;
+	height: 90vh;
+	background-color: rgb(47, 46, 46)
+	opacity: 50%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+
+  .off {
+    display: none !important;
+  }
+  .on {
+    display: block !important;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .social img{
+  	width: 100%;
+  }
+  .botonera li a {
+    font-size: 13px;
+}
+
+.nosotros{
+	height: 100%;
+	overflow: hidden;
+	padding-top: 30px;
+}
+
+#home{
+	padding-top: 65px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+.empleosIndex{
+height: 100%;
+}
+footer {
+	height: 100%;
+}
+
+
+}

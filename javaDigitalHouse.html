@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Level-up</title>
+	<!-- Estilos de Bootstrap  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Tipografia openSans -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+<link rel="icon" href="images/logogrande.ico">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row top">
+            
+                <div class="col-md-4"><a href="index.html" data-ancla="home" class="off">
+                    <img src="images/logogrande2.png" alt="" class="logo"></a></div>
+        
+                <div class="col-md-8 d-flex justify-content-end">
+                    <ul class='botonera'>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contenedorPropuestas">Empleos</a></li>
+                        <li><a href="index.html#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="principalEmpleo vertical-centered-text" id="homeEmpleo">
+    
+        <div class="cta"><h1>Profesor Java</h1> 
+                <h2>Digital House</h2>
+                <h4>100% remoto - Posición efectiva</h4>
+            </div>
+        </div>
+
+
+        <div class="container" id="contenedorDescripcionEmpleo">
+            <div class="row">
+            <div class="col-md-8 col-sd-12" id="descripcionEmpleo">
+                <h2>Descripción del puesto</h2>
+            <p> <strong>Digital House</strong> Digital House (www.digitalhouse.com), es el coding school donde se forman las nuevas generaciones de coders y profesionales digitales para que imaginen, innoven y creen lo que siempre soñaron. 
+                <br><br>
+                En partnership con Mercado Libre se encuentran capacitando en Java a los nuevos talentos que se suman todos los meses al unicornio. Asimismo están sumando docentes para el equipo que dictará estas materias en la carrera de Certified Tech Developer (Mercado Libre + Globant).
+            <br><br>
+                Para ello se encuentran en la búsqueda de Profesores titulares y ayudantes interesados en dictar de manera <strong>Fulltime</strong> las materias <strong>Programación Java</strong> y <strong>Programación Orientada a Objetos</strong>
+            <br><br>
+            <strong> Conocimientos requeridos</strong>
+            <br>
+            <ul>
+                <li>Experiencia aplicando Java</li>
+                <li>Patrones de diseño</li>
+                <li>Bases de datos.</li>
+                <li>Conocimientos de Spring.</li>
+            </ul>
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Postularme
+              </button>
+        </div>
+        <div class="col-md-4" id="sobreLevel">
+            <h2>Sobre Level-up</h2>
+            <p>Somos una consultora de Empleo IT con la misión de llevar los procesos de selección a un siguiente nivel, mejorando la experiencia de los profesionales y reduciendo los tiempos de contratación.
+            </p>
+            <br>
+            <p>Concebimos el desarrollo profesional como un proceso de mejora continua: ponemos el foco en que la propuesta ofrecida a cada candidato le implique un crecimiento real. De esta manera, generamos alianzas consistentes y duraderas entre los profesionales y nuestros clientes, beneficiando a ambos por igual</p><br>
+            <p>Nuestros principales valores son la <strong> transparencia y el profesionalismo.</strong> Solo de esta manera podemos
+                concebir ser una agencia de reclutamiento IT centrada en el candidato. </p> 
+        </div>
+        </div>
+
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Formulario de Postulación</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+        
+                    <form action="https://formspree.io/f/xnqoerqv" method="POST">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="nombre" id="formGroupExampleInput" placeholder="Nombre y Apellido" required>
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" name="mail" id="formGroupExampleInput" placeholder="Ej.: tumail@gmail.com" required>
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" name="linkedin" id="formGroupExampleInput" placeholder="URL de tu perfil de Linkedin" required>
+                          </div>
+                            <br> 
+                            
+                    <p2>También podés enviarnos tu CV a <strong>cv@hrlevel-up.com</strong></p2> 
+                    <br>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <input type="submit" class="btn btn-primary" id="botonFormularioContacto">
+                </form>
+                </div>
+                <div class="modal-footer">
+        
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="propuestas" id="contenedorPropuestas">
+            <br>
+            <h1>¡Chequeá nuestras oportunidades!</h1>
+        <div class="grid">
+        
+        <div class="trabajo">
+        <h4>Golang Software Engineer</h4>
+        <p>Variacode - 100% remoto</p>
+        <span class="badge bg-success">USD</span>
+        <span class="badge bg-danger">Remoto</span>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Postularme
+          </button>
+          <a href="golangVariacode.html" class="btn btn-secondary" id="infoTrabajo">Info</a>
+        </div>
+        
+        <div class="trabajo">
+            <h4>React Native Developer (Ssr/Sr)</h4>
+            <p>Idukay - 100% remoto</p>
+            <span class="badge bg-success">USD</span>
+            <span class="badge bg-danger">Remoto</span>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Postularme
+              </button>
+              <a href="ReactNativeIdukay.html" class="btn btn-secondary" id="infoTrabajo">Info</a>
+            </div>
+        
+        
+        <div class="trabajo">
+            <h4>Devops Support Engineer</h4>
+            <p>Variacode - 100% remoto</p>
+            <span class="badge bg-success">USD</span>
+            <span class="badge bg-danger">Remoto</span>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Postularme
+              </button>
+              <a href="devopsSupportVariacode.html" class="btn btn-secondary" id="infoTrabajo">Info</a>
+        
+        </div>
+        
+        <div class="trabajo">
+            <h4>Profesor Java </h4>
+            <p>Digital House - 100% remoto</p>
+            <span class="badge bg-primary">AR$</span>
+            <span class="badge bg-danger">Remoto</span>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Postularme
+              </button>
+              <a href="javaDigitalHouse.html" class="btn btn-secondary" id="infoTrabajo">Info</a>
+        </div>
+        
+        <div class="trabajo">
+            <h4>Profesor POO </h4>
+            <p>Digital House - 100% remoto</p>
+            <span class="badge bg-primary">AR$</span>
+            <span class="badge bg-danger">Remoto</span>
+            <button type="button" class="btn btn-primary" id="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Postularme
+              </button>
+              <a href="pooDigitalHouse.html" class="btn btn-secondary" id="infoTrabajo">Info</a>
+        </div>
+        
+        
+        
+         </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Formulario de Postulación</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+        
+                    <form action="https://formspree.io/f/xnqoerqv" method="POST">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="nombre" id="formGroupExampleInput" placeholder="Nombre y Apellido" required>
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" name="mail" id="formGroupExampleInput" placeholder="Ej.: tumail@gmail.com" required>
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" name="linkedin" id="formGroupExampleInput" placeholder="URL de tu perfil de Linkedin" required>
+                          </div>
+                            <br> 
+                            
+                    <p2>También podés enviarnos tu CV a <strong>cv@hrlevel-up.com</strong></p2> 
+                    <br>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <input type="submit" class="btn btn-primary" id="botonFormularioContacto">
+                </form>
+                </div>
+                <div class="modal-footer">
+        
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <footer>
+            <div class="container" id="contacto">
+                <div class="row">
+                <div class=" col-md-4">
+                    <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        Escribinos
+                      </button>	  
+            </div>
+            <div class="col-md-8">
+                <h2>info@hrlevel-up.com</h2>
+                <h2>+54 9 11 3602 3471</h2>     
+                <h5>Ciudad Autónoma de Buenos Aires, Argentina.</h5>  
+            </div> 
+            </div>
+        </div>
+        </footer>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Contactar</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+        
+                    <form action="https://formspree.io/f/xzbknwpw" id="formularioDeContacto" method="POST">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="nombre" id="formGroupExampleInput" placeholder="Tu nombre" required>
+                          </div>
+                          <div class="mb-3">
+                            <input type="email" class="form-control" name="mail" id="formGroupExampleInput" placeholder="tumail@empresa.com"required>
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" name="empresa" id="formGroupExampleInput" placeholder="Tu organización">
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" name="asunto" id="formGroupExampleInput" placeholder="¿Cómo podemos ayudarte?"required>
+                          </div>
+    
+                    
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <input type="submit" class="btn btn-primary" id="botonFormularioContacto">
+                      </div>
+                </form>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+    <script src="forms.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
