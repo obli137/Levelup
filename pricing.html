@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Level-up</title>
+	<!-- Estilos de Bootstrap  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Tipografia openSans -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+<link rel="icon" href="images/logogrande.ico">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row top">
+            
+                <div class="col-md-4"><a href="index.html" data-ancla="home" class="off">
+
+                    <img src="images/logogrande2.png" alt="" class="logo"></a></div>
+        
+                <div class="col-md-8 d-flex justify-content-end">
+                    <ul class='botonera'>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contenedorPropuestas">Empleos</a></li>
+                        <li><a href="index.html#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="principalEmpleo vertical-centered-text" id="homeEmpleo">
+    
+      <div class="cta"><h1>Pricing</h1> 
+          </div>
+      </div>
+
+    <div class="container pricing" id="pricing">
+      <p>Here, you will find a list of our current pricing options for various positions within our company. We have a range of options available to fit the needs and budgets of different businesses. Please take a moment to review our prices and feel free to contact us with any questions or to request a customized quote.</p>
+    
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+          <th scope="col" colspan="2">Services</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+          <td rowspan="9">IT Recruiting</td>
+          <td>Software Architect</td>
+          <td>$8,000</td>
+          </tr>
+          <tr>
+          <td>Senior Software Developer</td>
+          <td>$6,000</td>
+          </tr>
+          <tr>
+          <td>Mid-senior Software Developer</td>
+          <td>$4,000</td>
+          </tr>
+          <tr>
+          <td>Junior Software Developer</td>
+          <td>$2,000</td>
+          </tr>
+          <tr>
+          <td>Senior QA Automation</td>
+          <td>$6,000</td>
+          </tr>
+          <tr>
+          <td>Mid-senior QA Automation</td>
+          <td>$4,000</td>
+          </tr>
+          <tr>
+          <td>Junior QA Automation</td>
+          <td>$2,000</td>
+          </tr>
+          <tr>
+          <td>Senior DevOps</td>
+          <td>$6,000</td>
+          </tr>
+          <tr>
+          <td>Mid-senior DevOps</td>
+          <td>$4,000</td>
+          </tr>
+
+          
+          <tr>
+          <td rowspan="5">Headhunting</td>
+          <td>C-level</td>
+          <td>20% of total annual compensation</td>
+          </tr>
+          <tr>
+          <td>HR Director</td>
+          <td>20% of total annual compensation</td>
+          </tr>
+          <tr>
+          <td>Finance Director</td>
+          <td>20% of total annual compensation</td>
+          </tr>
+          <tr>
+          <td>Talent Acquisition Director</td>
+          <td>20% of total annual compensation</td>
+          </tr>
+          <tr>
+          <td>Marketing Director</td>
+          <td>20% of total annual compensation</td>
+          </tr>
+          <tr>
+          <td rowspan="3">Build your Recruiting Team</td>
+          <td>Recruiting team from scratch (includes hire/training of 1 Lead + 1 Senior Recruiter, 2 IT Sourcers, building recruiting processes, and 6 months of weekly advisory</td>
+          <td>$50,000</td>
+          </tr>
+          <tr>
+          <td>Train your team (includes process building, data funnel dashboard, metrics, negotiation training, employer branding, and candidate experience)</td>
+          <td>$20,000</td>
+          </tr>
+        </table>
+        
+        
+    </div>
+    
+    
+      <footer>
+        <div class="container" id="contacto">
+          <div class="row">
+            <div class=" col-md-4">
+              <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal"
+                data-bs-target="#exampleModal2">
+                Escribinos
+              </button>
+            </div>
+            <div class="col-md-8">
+              <h2>info@hrlevel-up.com</h2>
+              <h2>+54 9 11 3602 3471</h2>
+              <h5>Ciudad Autónoma de Buenos Aires, Argentina.</h5>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Contactar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+    
+              <form action="https://formspree.io/f/xzbknwpw" id="formularioDeContacto" method="POST">
+                <div class="mb-3">
+                  <input type="text" class="form-control" name="nombre" id="formGroupExampleInput"
+                    placeholder="Tu nombre" required>
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" name="mail" id="formGroupExampleInput"
+                    placeholder="tumail@empresa.com" required>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" name="empresa" id="formGroupExampleInput"
+                    placeholder="Tu organización">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" name="asunto" id="formGroupExampleInput"
+                    placeholder="¿Cómo podemos ayudarte?" required>
+                </div>
+    
+    
+    
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <input type="submit" class="btn btn-primary" id="botonFormularioContacto">
+                </div>
+              </form>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      </div>
+      <script src="forms.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    </body>
+    
+    </html>
